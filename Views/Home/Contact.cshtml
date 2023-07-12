@@ -1,0 +1,71 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Contact";
+}
+
+<html>
+
+<!-- ======= Contact Us Section ======= -->
+    <div>
+        <h1 class="display-4" id="conh1">CONTACT US</h1>
+        <p id="infocon">Help us make this site better.</p>
+    </div>
+
+<div class="row">
+    <section class="contact" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="info-box">
+                                <img src="~/css/location.png" id="iconlocation">
+                                <h3>Our Address</h3>
+                                <p>Arellano Street, Dagupan City, 2400, Pangasinan</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="info-box">
+                                <img src="~/css/mail.png" id="iconmail">
+                                <h3>Email Us</h3>
+                                <p>info.jeepcity@phinmaed.com<br></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="info-box">
+                                <img src="~/css/contact.png" id="iconcontact">
+                                <h3>Call Us</h3>
+                                <p>09217980310</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <form action="Popup" method="post" role="form" class="php-email-form">
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6 form-group mt-3 mt-md-0">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                            <div class="form-group mt-3">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group mt-3">
+                                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                            </div>
+                            <div class="text-center"><button type="submit">Submit</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<!-- ======= End of Contact Us Section ======= -->
+
+</html>

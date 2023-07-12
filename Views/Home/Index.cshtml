@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<html>
+
+<!-- ======= Home Section ======= -->
+    <div class="text-center" id="homediv">
+        <h1 class="display-4" id="hoh1">Welcome to Dagupan City!</h1>
+        <p>Getting to know the city's Jeepney routes for a stress-free commute.</p>
+        <img src="~/css/jeepneyhome-removebg-preview.png" class="img-fluid" id="homepic"/>
+    
+        <div class="btn">
+            <li class="nav-item">
+                <a id="atroutes" class=asp-area ="">
+                    <button type="button"
+                        class="btn btn-outline-secondary"
+                        id="routesbtn"
+                        onclick="location.href='@Url.Action("Routes")'">
+                        Get Started
+                    </button>
+                </a>
+            </li>
+        </div>
+    </div>
+<!-- ======= End of Home Section ======= -->
+
+</html>
